@@ -2440,10 +2440,10 @@
   transform: translate(-50%, -50%);
 }
 .datepicker-toggle-button:focus {
-  /*color: #2979ff;*/
+  color: #2979ff;
 }
 .datepicker-toggle-button:hover {
-  /*color: #2979ff;*/
+  color: #2979ff;
 }
 
 .datepicker-backdrop {
@@ -3162,7 +3162,7 @@
   color: #2979ff;
 }
 .timepicker-input:focus + .timepicker-toggle-button, .timepicker-input:focus + .timepicker-toggle-button i {
-  /*color: #2979ff;*/
+  color: #2979ff;
 }
 .timepicker a.timepicker-toggle-button, .timepicker-toggle-button.timepicker-icon {
   right: 1px;
