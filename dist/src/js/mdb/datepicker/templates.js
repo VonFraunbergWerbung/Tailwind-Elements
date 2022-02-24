@@ -412,7 +412,7 @@ function getYearsArray(date, yearsInView, yearsInRow) {
 export function getToggleButtonTemplate(id) {
   return `
     <button id="${id}" type="button" class="datepicker-toggle-button" data-mdb-toggle="datepicker">
-      <i class="fas fa-calendar datepicker-toggle-icon"></i>
+      <i class="fas fa-calendar datepicker-toggle-icon text-[#353846]"></i>
     </button>
   `;
 }
