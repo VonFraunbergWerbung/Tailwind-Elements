@@ -294,7 +294,7 @@ class Datepicker {
   _init() {
     if (!this.toggleButton && this._options.toggleButton) {
       this._appendToggleButton();
-      if (this._input.readOnly || this._input.disabled) {
+      if (/* this._input.readOnly || */ this._input.disabled) {
         this.toggleButton.style.pointerEvents = 'none';
       }
     }
@@ -311,7 +311,7 @@ class Datepicker {
   }
 
   open() {
-    if (this._input.readOnly || this._input.disabled) {
+    if (/* this._input.readOnly || */ this._input.disabled) {
       return;
     }
     const openEvent = EventHandler.trigger(this._element, EVENT_OPEN);
