@@ -2818,6 +2818,12 @@
   margin-right: auto;
 }
 
+.timepicker {
+  /*&-input:focus + &-toggle-button,
+  &-input:focus + &-toggle-button i {
+    color: $timepicker-input-color;
+  }*/
+}
 .timepicker-wrapper {
   touch-action: none;
   z-index: 1065;
@@ -3160,9 +3166,6 @@
   color: #2979ff;
 }
 .timepicker-toggle-button:focus {
-  color: #2979ff;
-}
-.timepicker-input:focus + .timepicker-toggle-button, .timepicker-input:focus + .timepicker-toggle-button i {
   color: #2979ff;
 }
 .timepicker a.timepicker-toggle-button, .timepicker-toggle-button.timepicker-icon {
