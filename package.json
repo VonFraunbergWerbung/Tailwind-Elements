@@ -22,8 +22,7 @@
     "deploy-ov": "npm run build-demo && cd dist-demo/ && mdb publish --override",
     "getBSsrc": "node getBSsrc",
     "test": "jest",
-    "lint": "lint-staged && pretty-quick --staged",
-    "postinstall": "cd ./node_modules/my-forked-project && npm install && npm run build"
+    "lint": "lint-staged && pretty-quick --staged"
   },
   "files": [
     "dist/**/*"
