@@ -2438,12 +2438,13 @@
   right: 10px;
   top: 50%;
   transform: translate(-50%, -50%);
-}
-.datepicker-toggle-button:focus {
-  /*color: #2979ff;*/
-}
-.datepicker-toggle-button:hover {
-  /*color: #2979ff;*/
+  /*&:focus {
+    color: $datepicker-toggle-focus-color;
+  }
+
+  &:hover {
+    color: $datepicker-toggle-focus-color;
+  }*/
 }
 
 .datepicker-backdrop {
@@ -2893,13 +2894,13 @@
   padding: 0 10px;
   height: 40px;
   margin-bottom: 10px;
-}
-.timepicker-button:hover {
-  background-color: rgba(0, 0, 0, 0.08);
+  /*&:hover {
+    background-color: $timepicker-button-hover-background-color;
+  }*/
 }
 .timepicker-button:focus {
   outline: none;
-  background-color: rgba(0, 0, 0, 0.08);
+  /*background-color: $timepicker-button-focus-background-color;*/
 }
 .timepicker-submit-inline {
   border-radius: 100%;
@@ -3156,12 +3157,12 @@
   cursor: pointer;
 }
 .timepicker-toggle-button:hover {
-  /*color: #2979ff;*/
+  color: #2979ff;
 }
 .timepicker-toggle-button:focus {
-  /*color: #2979ff;*/
+  color: #2979ff;
 }
-.timepicker-input:focus /*+ .timepicker-toggle-button, .timepicker-input:focus + .timepicker-toggle-button i*/ {
+.timepicker-input:focus + .timepicker-toggle-button, .timepicker-input:focus + .timepicker-toggle-button i {
   color: #2979ff;
 }
 .timepicker a.timepicker-toggle-button, .timepicker-toggle-button.timepicker-icon {

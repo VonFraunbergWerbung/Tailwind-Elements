@@ -7,13 +7,13 @@
   top: $datepicker-toggle-top;
   transform: translate(-50%, -50%);
 
-  &:focus {
+  /*&:focus {
     color: $datepicker-toggle-focus-color;
   }
 
   &:hover {
     color: $datepicker-toggle-focus-color;
-  }
+  }*/
 }
 
 .datepicker-backdrop {
