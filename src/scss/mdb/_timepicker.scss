@@ -82,13 +82,13 @@
     height: $timepicker-button-height;
     margin-bottom: $timepicker-button-margin-bottom;
 
-    &:hover {
+    /*&:hover {
       background-color: $timepicker-button-hover-background-color;
-    }
+    }*/
 
     &:focus {
       outline: none;
-      background-color: $timepicker-button-focus-background-color;
+      /*background-color: $timepicker-button-focus-background-color;*/
     }
   }
 
