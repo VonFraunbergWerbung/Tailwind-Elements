@@ -918,7 +918,7 @@ class Datepicker {
       this._input.value = dateString;
       Manipulator.addClass(this._input, 'active');
       EventHandler.trigger(this._element, EVENT_DATE_CHANGE, { date });
-      this._input.value.dispatchEvent(new Event('input'));
+      this._input.dispatchEvent(new Event('input'));
     }
   }
 
@@ -939,7 +939,7 @@ class Datepicker {
     this._setInitialDate();
     this._changeView('days');
     
-    this._input.value.dispatchEvent(new Event('input'));
+    this._input.dispatchEvent(new Event('input'));
   }
 
   _removeCurrentSelectionStyles() {
