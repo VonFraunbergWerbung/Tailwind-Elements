@@ -893,6 +893,8 @@ class Timepicker {
         if (Manipulator.hasClass(target, BUTTON_CLEAR_CLASS)) {
           this.input.value = '';
           Manipulator.removeClass(this.input, 'active');
+          
+          this.input.dispatchEvent(new Event('input'));
 
           let checkInputValue;
 
@@ -947,6 +949,8 @@ class Timepicker {
       } else {
         this.input.value = `${currentValue} ${hourModeActive.textContent}`;
       }
+      
+      this.input.dispatchEvent(new Event('input'));
 
       this._toggleBackdropAnimation(true);
       this._removeModal();
