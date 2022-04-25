@@ -938,6 +938,8 @@ class Datepicker {
     this._input.classList.remove('active');
     this._setInitialDate();
     this._changeView('days');
+    
+    this._input.value.dispatchEvent(new Event('input'));
   }
 
   _removeCurrentSelectionStyles() {
